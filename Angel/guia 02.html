@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>titulo de la pagina</title> 
+    </head>
+
+<frameset cols="20%, 80%"> (divide la pagina en dos marcos en forma de columnas,
+cada una con su anchura correspondiente en porcentaje)  
+
+<frame src="../../../../../Working%20files/jose%20angel%20lerma%20juarez/Entrega%20del%20Material%20de%20la%20Gu�a%2002/menu.htm" name="navegacion"> (archivo menu.html que corresponde al marco 
+de la izquierda, llamado navegaciÝ, 20% de anchura) 
+
+<frame src="../../../../../Working%20files/jose%20angel%20lerma%20juarez/Entrega%20del%20Material%20de%20la%20Gu�a%2002/principal.htm" name="contenidos"> (archivo principal.html que corresponde
+al marco de la derecha, llamado contenidos�, 80% de anchura)
+
+</frameset>
+
+</html>
+
+Las paginas tambien se pueden dividir en marcos horizontales con
+<frameset rows="  ,  ">
+
+frameborder="NO" evita que se vea el borde entre los marcos framespacing="2" 
+establece 2 pixels de separacion entre los marcos scrolling="NO" evita que aparezca 
+una barra de scroll dentro del marco scrolling="auto" mostrar la barra de scroll 
+salto si es necesario
+
+Ejemplo  de  una  pagina  con  tres  marcos  en  forma  de  filas.  La  superior  y  
+la inferior tienen un tama�o fijo de 80 pixels; la del medio es adaptable. No se 
+muestran los   bordes entre los marcos
+
+<frameset rows="80,*,80" frameborder="NO" border="0" framespacing="0"> 
+
+<frame src="../../../../../Working%20files/jose%20angel%20lerma%20juarez/Entrega%20del%20Material%20de%20la%20Gu�a%2002/navegacion_up.htm" name="topFrame" scrolling="NO"> 
+<frame src="../../../../../Working%20files/jose%20angel%20lerma%20juarez/Entrega%20del%20Material%20de%20la%20Gu�a%2002/principal.htm" name="mainFrame"> 
+<frame src=" ../../../../../Working%20files/jose%20angel%20lerma%20juarez/Entrega%20del%20Material%20de%20la%20Gu�a%2002/navegacion_down.htm " name="bottomFrame" scrolling="NO"> 
+
+</frameset> 
